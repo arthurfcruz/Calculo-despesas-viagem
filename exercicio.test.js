@@ -1,5 +1,5 @@
 const exercicio = require('./exercicio')
 
-test('Testar rendimento do combustivel', () => {
-    expect(exercicio.GastoViagem(11000, 'etanol')).toBe(1);
+test('testar o numero de paradas', () => {
+    expect(exercicio.NumeroParadas(["adulto", "adulto", "crianca"],9)).toBe(9);
 });
