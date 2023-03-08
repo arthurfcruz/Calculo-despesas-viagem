@@ -1,5 +1,5 @@
 const exercicio = require('./exercicio')
 
-test('testar o numero de paradas', () => {
-    expect(exercicio.NumeroParadas(["adulto", "adulto", "crianca"],9)).toBe(9);
+test('testar o valor das refeicoes', () => {
+    expect(exercicio.GastoRefeicao(5,["adulto", "adulto", "crianca"])).toBe(520);
 });
